@@ -1,0 +1,442 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+/*  css header----------------- */
+#banner {
+  width: 100%;
+  position: relative;
+}
+#banner img {
+  width: 100%;
+  height: 450px;
+  /* lớp phụ------------------- */
+  filter: contrast(80%);
+  /* lớp phụ------------------- */
+}
+
+.content-banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.content-banner h1 {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+/* css nav--------------------------- */
+.nav-bar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+p {
+  line-height: 1.5;
+}
+a {
+  color: rgb(23, 95, 211);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 15, 255);
+}
+
+.nav-bar i {
+  margin-right: 5px;
+  color: rgb(67, 129, 244);
+}
+p.ten {
+  margin-bottom: 0;
+}
+.ca-nhan {
+  text-align: center;
+}
+.vi-tri {
+  font-size: 9px;
+  color: rgb(160, 161, 161);
+  padding-top: 5px;
+}
+
+.header-top-bar {
+  position: relative;
+}
+/* css info------------------------------------ */
+
+.main-container-1 {
+  height: 355px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  background-color: rgba(246, 247, 249, 0.842);
+}
+.target {
+  grid-column: 1 / span 2;
+
+  margin-left: 10em;
+  line-height: 25px;
+}
+.target p {
+  text-align: justify;
+}
+.section-title {
+  font-size: 25px;
+  margin-top: 55px;
+}
+.personal-info {
+  padding-left: 15px;
+  padding-right: 5px;
+  background-color: rgb(241, 245, 249);
+}
+
+ul {
+  list-style: none;
+}
+span {
+  font-weight: bold;
+}
+/* an thong tin ca nhan */
+
+.Info {
+  display: none;
+}
+#Email {
+  width: 100%;
+  margin-bottom: 5px;
+  height: 25px;
+  outline: none;
+  border: none;
+}
+.submit-email {
+  width: 300px;
+}
+.icon-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  color: rgb(67, 129, 244);
+}
+/* css information----------------------------- */
+
+#information {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  
+}
+ 
+.kinhnghiem i {
+  margin-left: 20px;
+}
+.exp, .education, .activity, .sothich, .ngonngu, .kynang
+{
+  display: grid;
+  grid-template-columns: 75% 25%;
+  row-gap: 30px;
+  grid-template-rows: 40px;
+  align-items: center;
+  padding: 20px 25px;
+}
+#exp,  #education, #activity, #sothich, #ngonngu, #kynang{
+  border: rgb(211, 211, 218) solid 2px;
+}
+
+/* css timline---------------------- */
+.section-content {
+  position: relative;
+  padding-left: 10px;
+}
+.section-information {
+  margin-left: 30px;
+  display: none;
+}
+/* an viewmore, lessmore*/
+.view-more {
+  display: none;
+}
+
+.section-information .title::before {
+  position: absolute;
+  content: ".";
+  font-size: 3em;
+  left: -20px;
+  top: -32px;
+  border-radius: 30px;
+  color: #00aaff;
+}
+/* end----------------------------- */
+.div-hientai {
+  display: flex;
+}
+#Present {
+  background-color: rgb(27, 146, 250);
+  padding: 1px;
+  border-radius: 8px;
+  width: 80px;
+  height: 25px;
+  color: antiquewhite;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+.sothich-item {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50px 50px;
+  width: 350px;
+  
+}
+.st1 {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(135, 134, 133);
+}
+.sothich-item i {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 45px;
+  display: flex;
+  margin-left: 15px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: rgb(202, 222, 240);
+}
+
+.ngonngu-item span {
+  display: inline-block;
+  width: 45px;
+  height: 2px;
+  background: rgb(241, 101, 249);
+ 
+}
+.ngonngu-item {
+  margin-left: 10px;
+}
+.kynang-item span {
+  display: inline-block;
+  width: 45px;
+  height: 2px;
+  background: rgb(241, 101, 249);
+  margin: 15px 5px;
+}
+.kynang-item{
+  margin-left: 10px;
+}
+.ta2,
+.ta3,
+.w3,
+.EX2 {
+  background: #00aaff !important;
+}
+.control-view {
+  margin: 10px 0 10px 10px;
+}
+
+/* css chung chi ---------------------------------------- */
+.chungchi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 35px;
+  padding-right: 2px;
+  grid-template-rows: 1fr 1fr;
+}
+.chungchi img {
+  width: 200px;
+  height: 150px;
+  padding-left: 5px;
+}
+.cc1 {
+  border-right: 1px solid #fba23c;
+}
+.cc1,
+.cc2,
+.cc3 {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+.cc1,
+.cc2 {
+  padding: 20px 0;
+  border-bottom: 2px solid #fba23c;
+}
+.content-cc {
+  width: 100%;
+}
+.content-certificafe {
+  margin-top: 30px;
+  background-color: rgb(245, 248, 251);
+}
+.content-certificafe h1 {
+  margin: 10px 0 10px 15px;
+  padding: 10px 0;
+}
+/* css  project--------------------------------- */
+.project-container {
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr); */
+  gap: 10px;
+  
+}
+
+.information-cv img {
+  width: 100%;
+  /* height: 350px; */
+}
+.project-header h3 {
+  padding: 3px 0;
+}
+#project h1 {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.project-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin-left: 8px;
+}
+.cv-content {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 70px;
+  height: 30px;
+  border-radius: 25px;
+  border-style: solid;
+  background-color: rgb(140, 198, 248);
+  border-color: rgb(140, 198, 248);
+}
+.project-header h3 {
+  font-size: 19px;
+}
+
+.icon-user {
+  color: rgb(67, 129, 244);
+}
+.project-info p {
+  padding: 1px 5px;
+}
+.icon-lamp {
+  color: rgb(250, 226, 4);
+}
+.table {
+  border-collapse: collapse;
+  margin: 10px 60px 10px 0;
+  width: 100%;
+  height: 180px;
+}
+
+.left-tb {
+  width: 30%;
+  padding-left: 10px;
+}
+.right-tb {
+  text-align: justify;
+  padding-right: 10px;
+}
+.table td {
+  border-top: 1px groove #d9ebf9;
+  border-bottom: none;
+}
+.information-cv {
+  border: 1px groove #d9ebf9;
+}
+/* css footer---------------------------------- */
+.footer {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: rgb(245, 248, 251);
+}
+#footer i {
+  color: rgb(45, 154, 249);
+  font-size: 20px;
+}
+.footer p {
+  margin-top: 20px;
+}
+/* css avatar------------------------ */
+/* .chane-img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 80%;
+    border: 5px solid white;
+     object-fit ---  Hình ảnh giữ nguyên tỷ lệ co và lấp đầy kích thước đã cho. 
+    object-fit: cover;
+    top: -100%;
+    left: 45%;
+  } */
+
+/* animations */
+.main-container-1 .about {
+  animation: slideInFormRight 1.25s ease-in;
+}
+#information #exp,
+#education,
+#activity {
+  animation: slideInFormLeft 1.25s ease-in;
+}
+#information #sothich,
+#ngonngu,
+#kynang {
+  animation: slideInFormRight 1.25s ease-in;
+}
+.certificate .content-certificafe {
+  animation: slideInFormBottom 1.25s ease-in;
+}
+#project .project-container {
+  animation: slideInFormTop 1.25s ease-in;
+}
+@keyframes slideInFormLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFormRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFormTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes slideInFormBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,105 @@
+@media screen and  (max-width: 992px){
+    #information {
+        /* width: 60%;
+        margin: 0 auto; */
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        gap: 10px;
+       justify-content: center;
+    }
+    .target {
+        height: 150px;
+        margin-left: 20px;
+        line-height: 25px;
+    }
+    .section-title {
+        text-align: start;
+        font-size: 25px;
+    }
+    .target  p {
+        text-align:justify;
+    }
+    .submit-email {
+        width: 250px;
+      }
+    #Email{
+        width: 100%;
+        border: none;
+    }
+    .chungchi  {
+        margin-top: 5px;
+        background-color: rgb(243, 238, 238);
+    }
+    .cc1,.cc2,.cc3 {
+        width: 100%;
+        justify-items: center;
+        display: inline-grid;
+     
+    }
+    .content-cc {
+        width: 200px;
+        margin-left: -5em;
+        
+    }
+    .chungchi img {
+        width: auto;
+        height: 150px;
+    }
+    .cc1 {
+        border-right: 1px solid #fba23c;
+      }
+
+      /* project */
+      
+      .project-info {
+        display :grid;
+        grid-template-columns: 80px 120px;
+        align-items: center;
+        margin-left: 8px;
+      }
+
+     .cv-content-item2{
+        grid-column: 2/3;
+        grid-row: 2/3 ;
+     }
+     .cv-content.cv-content {
+     margin-top: 10px;
+    
+     }
+   
+     /* #exp {
+        height: 650px;
+     } */
+     #education {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        /* margin-top: -10em; */
+     }
+     #activity {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        /* height: 480px; */
+    }
+      #ngonngu{
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 3;
+       grid-row-end: 4;
+    }
+    #kynang {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+     }
+ 
+     .sothich-item  {
+        margin-left: -30px;
+        width: 300px;
+    }
+}
+    

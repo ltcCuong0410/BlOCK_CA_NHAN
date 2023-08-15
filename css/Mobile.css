@@ -1,0 +1,89 @@
+@media screen and (max-width: 768px) {
+  .header-top-bar {
+    position: relative;
+  }
+  .nav-bar {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  }
+  .main-container-1 {
+    display: block;
+    margin-top: 7rem;
+  }
+
+  .target {
+    margin: 25px 25px;
+    height: 200px;
+  }
+  .section-title {
+    padding-top: 10 px;
+  }
+  .personal-info {
+    height: 150px;
+  }
+  #information {
+    display: block;
+    margin-top: 15em;
+  }
+  /* .exp,
+  .education,
+  .chungchi,
+  .activity,
+  .sothich,
+  .kynang,
+  .ngonngu {
+    margin-bottom: 10px;
+  } */
+  .chungchi {
+    display: block;
+  }
+  .personal-info {
+    height: 250px;
+  }
+  .submit-email {
+    width: 250px;
+  }
+  #Email {
+    width: 100%;
+    border: none;
+  }
+  /* chung chi */
+  .cc1 {
+    border-right: none;
+  }
+  .cc3 img {
+   margin-top: 20px;
+  }
+
+  /* project */
+  .project-container {
+    display: inline-block;
+  }
+  .project-info {
+    display: block;
+  }
+  .project-header h3 {
+    
+    padding: 10px;
+  }
+  .project-header  {
+    margin: 10px 0 5px 0;
+    border: 1px solid #e8e7e7;
+
+  }
+    
+    .information-cv {
+      width: 100%;
+    }
+    #exp {
+      /* height: 580px; */
+      margin-top: -5em;
+    }
+   
+    #education ,#activity, #sothich, #ngonngu,#kynang {
+      margin-top: 10px;
+    }
+
+}
